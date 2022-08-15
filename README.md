@@ -87,3 +87,28 @@ User: razvan2909 & Pass: Testare12
 Passed
 
 ------
+
+**Title:**
+
+Test login without credentials
+
+**Description:**
+Check if the login works when a person try to login without credentials.
+
+**Steps to reprodce:**
+
+1. Go to [site](https://wordpress.com/log-in)
+3. Don't add credentials
+4. Press Login button
+
+**Expected result:**
+
+User should not be able to login and page need to display a specific message like "Please enter a username or email address.".
+
+**Test data:**
+
+User: razvan2909 & Pass: Testare12
+
+**Status:**
+
+Passed
