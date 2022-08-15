@@ -40,7 +40,7 @@ Test login with incorrect credentials
 
 Check if the login works when a person uses a incorrect user/pass.
 
-**Steps to reprodce:*
+**Steps to reprodce:**
 
 1. Go to [site](https://wordpress.com/log-in)
 2. Add a incorrect user / pass
