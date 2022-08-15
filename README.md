@@ -98,8 +98,8 @@ Check if the login works when a person try to login without credentials.
 **Steps to reprodce:**
 
 1. Go to [site](https://wordpress.com/log-in)
-3. Don't add credentials
-4. Press Login button
+2. Don't add credentials
+3. Press Login button
 
 **Expected result:**
 
@@ -112,3 +112,32 @@ User: razvan2909 & Pass: Testare12
 **Status:**
 
 Passed
+
+------
+
+
+**Title:**
+
+Test search engine with correct credentials
+
+**Description:**
+Check if the search engine works when a person try to search something with correct credentials.
+
+**Steps to reprodce:**
+
+1. Go to https://www.emag.ro/
+2. Search something you need to buy
+3. Press search button
+
+**Expected result:**
+
+Search engine should display your product correctly.
+
+**Test data:**
+
+Pantaloni lungi
+
+**Status:**
+
+Passed
+
