@@ -131,7 +131,7 @@ Check if the search engine works when a person try to search something with corr
 
 **Expected result:**
 
-Search engine should display your product correctly.
+Search engine should display your product correctly and similar products.
 
 **Test data:**
 
@@ -140,4 +140,69 @@ Pantaloni lungi
 **Status:**
 
 Passed
+
+------
+
+
+**Title:**
+
+Test search engine with autocomplete function
+
+**Description:**
+Check if the search engine works when a person try to search something and autocomplete function work when you type.
+
+**Steps to reprodce:**
+
+1. Go to https://www.emag.ro/
+2. Search something you need to buy
+3. Press search button
+
+**Expected result:**
+
+Search engine should autocomplete field when you type something that exist in database.
+
+**Test data:**
+
+Pantaloni lungi
+
+**Status:**
+
+Passed
+
+------
+
+
+**Title:**
+
+Test search engine with incorrect credentials
+
+**Description:**
+Check if the search engine works when a person try to search something that doesn't exist in database.
+
+**Steps to reprodce:**
+
+1. Go to https://www.emag.ro/
+2. Search something that doesn't exist
+3. Press search button
+
+**Expected result:**
+
+Search engine should work perfect and display a message like "0 results for your product".
+
+**Test data:**
+
+Sourcetree
+
+**Status:**
+
+Passed
+
+
+------
+
+
+
+
+
+
 
